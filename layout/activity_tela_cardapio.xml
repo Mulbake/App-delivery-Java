@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="118dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20px"
+        android:layout_marginLeft="400px"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="134dp"
+        android:layout_marginTop="70px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgDoce01"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="70px"
+            android:layout_marginLeft="20px"
+            app:srcCompat="@drawable/doce01" />
+
+        <TextView
+            style="@style/text_style"
+            android:layout_width="280px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:text="Brownie da Felicidade R$ 20.00"
+            android:textSize="60px" />
+
+        <Button
+            android:id="@+id/btMaisDoce01"
+            android:layout_width="160px"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/yellow"
+            android:text="+"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/brown"
+            android:textSize="60px" />
+
+        <TextView
+            android:id="@+id/lblQtdDoce01"
+            style="@style/text_style"
+            android:layout_width="120px"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            android:textSize="60px" />
+
+        <Button
+            android:id="@+id/btMenosDoce01"
+            android:layout_width="160px"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/yellow"
+            android:text="-"
+            android:textColor="@color/brown"
+            android:textSize="60px" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="134dp"
+        android:layout_marginTop="50px"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgDoce02"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20px"
+            app:srcCompat="@drawable/doce02" />
+
+        <TextView
+            android:layout_width="280px"
+            style="@style/text_style"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:text="Bolo de Brigadeiro R$ 15.00"
+            android:textSize="60px" />
+
+        <Button
+            android:id="@+id/btMaisDoce02"
+            android:textColor="@color/brown"
+            android:backgroundTint="@color/yellow"
+            android:layout_width="160px"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="60px" />
+
+        <TextView
+            android:id="@+id/lblQtdDoce02"
+            style="@style/text_style"
+            android:layout_width="120px"
+            android:layout_marginTop="40dp"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textAlignment="center"
+            android:textSize="60px" />
+
+        <Button
+            android:id="@+id/btMenosDoce02"
+            android:textColor="@color/brown"
+            android:backgroundTint="@color/yellow"
+            android:layout_width="160px"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="60px" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="134dp"
+        android:layout_marginTop="50px"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imgDoce03"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20px"
+            app:srcCompat="@drawable/doce03" />
+        <TextView
+            android:layout_width="260px"
+            style="@style/text_style"
+            android:layout_height="wrap_content"
+            android:text="Bolo de Prestigio     R$ 15.00"
+            android:textSize="60px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"/>
+        <Button
+            android:layout_width="160px"
+            android:textColor="@color/brown"
+            android:backgroundTint="@color/yellow"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="+"
+            android:textSize="60px"
+            android:id="@+id/btMaisDoce03"/>
+        <TextView
+            android:layout_width="120px"
+            style="@style/text_style"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="0"
+            android:textSize="60px"
+            android:textAlignment="center"
+            android:id="@+id/lblQtdDoce03"/>
+
+        <Button
+            android:layout_width="160px"
+            android:textColor="@color/brown"
+            android:backgroundTint="@color/yellow"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="-"
+            android:textSize="60px"
+            android:id="@+id/btMenosDoce03"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="134dp"
+        android:layout_marginTop="50px"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imgBatata"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20px"
+            app:srcCompat="@drawable/doce04" />
+        <TextView
+            android:layout_width="260px"
+            style="@style/text_style"
+            android:layout_height="wrap_content"
+            android:text="Bolo de Ninho c/ Morango    R$ 15.00"
+            android:textSize="60px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"/>
+        <Button
+            android:layout_width="160px"
+            android:textColor="@color/brown"
+            android:backgroundTint="@color/yellow"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="+"
+            android:textSize="60px"
+            android:id="@+id/btMaisDoce04"/>
+        <TextView
+            android:layout_width="120px"
+            style="@style/text_style"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="0"
+            android:textSize="60px"
+            android:textAlignment="center"
+            android:id="@+id/lblQtdDoce04"/>
+
+        <Button
+            android:layout_width="160px"
+            android:textColor="@color/brown"
+            android:backgroundTint="@color/yellow"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="-"
+            android:textSize="60px"
+            android:id="@+id/btMenosDoce04"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="134dp"
+        android:layout_marginTop="50px"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imgDoce05"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20px"
+            app:srcCompat="@drawable/doce05" />
+        <TextView
+            android:layout_width="240px"
+            style="@style/text_style"
+            android:layout_height="wrap_content"
+            android:text="Bolo de Ninho c/ Nutela    R$ 15.00"
+            android:textSize="60px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"/>
+        <Button
+            android:layout_width="160px"
+            android:textColor="@color/brown"
+            android:backgroundTint="@color/yellow"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="+"
+            android:textSize="60px"
+            android:id="@+id/btMaisDoce05"/>
+        <TextView
+            android:layout_width="120px"
+            style="@style/text_style"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:textSize="60px"
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            android:id="@+id/lblQtdDoce05"/>
+
+        <Button
+            android:layout_width="160px"
+            android:textColor="@color/brown"
+            android:backgroundTint="@color/yellow"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="-"
+            android:textSize="60px"
+            android:id="@+id/btMenosDoce05"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="134dp"
+        android:layout_marginTop="50px"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imgDoce06"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20px"
+            app:srcCompat="@drawable/doce06" />
+        <TextView
+            android:layout_width="240px"
+            style="@style/text_style"
+            android:layout_height="wrap_content"
+            android:text="Bolo de Ninho c/ Nutela    R$ 15.00"
+            android:textSize="60px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"/>
+        <Button
+            android:layout_width="160px"
+            android:textColor="@color/brown"
+            android:backgroundTint="@color/yellow"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="+"
+            android:textSize="60px"
+            android:id="@+id/btMaisDoce06"/>
+        <TextView
+            android:layout_width="120px"
+            style="@style/text_style"
+            android:layout_height="match_parent"
+            android:layout_marginTop="40dp"
+            android:text="0"
+            android:textSize="60px"
+            android:textAlignment="center"
+            android:id="@+id/lblQtdDoce06"/>
+
+        <Button
+            android:layout_width="160px"
+            android:textColor="@color/brown"
+            android:backgroundTint="@color/yellow"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="-"
+            android:textSize="60px"
+            android:id="@+id/btMenosDoce06"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150px"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="450px"
+            style="@style/text_style"
+            android:layout_height="wrap_content"
+            android:text="Total Geral: R$"
+            android:textSize="60px" />
+
+        <TextView
+            android:layout_width="450px"
+            style="@style/text_style"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/lblTotalGeral"
+            android:textSize="60px" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btGravarPedido"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80px"
+        android:layout_marginBottom="90px"
+        android:text="Gravar Pedido"
+        android:textSize="60px"
+        style="@style/Button"/>
+</LinearLayout>
+    </androidx.core.widget.NestedScrollView>
